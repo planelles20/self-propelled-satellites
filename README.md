@@ -36,7 +36,7 @@ Fitness must calculate the accumulated velocity (in module) of the satellite "i"
     <img src="https://github.com/planelles20/self-propelled-satellites/blob/master/img/fitnessEq.gif?raw=true" alt="fitness equations"/>
 </p>
 
-*[YouTube video]()*
+*[YouTube video](https://www.youtube.com/watch?v=gBNJntyCFuE&feature=youtu.be)*
 
 
 <p align="center">
