@@ -42,3 +42,14 @@ Fitness must calculate the accumulated velocity (in module) of the satellite "i"
 <p align="center">
   <img src="https://github.com/planelles20/self-propelled-satellites/blob/master/img/example1.gif?raw=true" alt="Vicsek model 3D gif"/>
 </p>
+
+## Example 2
+
+It is like example 1 but the satellites interact with three stars.
+
+*[YouTube video]()*
+
+
+<p align="center">
+  <img src="https://github.com/planelles20/self-propelled-satellites/blob/master/img/example2.gif?raw=true" alt="Vicsek model 3D gif"/>
+</p>
