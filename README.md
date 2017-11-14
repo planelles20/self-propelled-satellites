@@ -49,7 +49,7 @@ Fitness must calculate the accumulated velocity (in module) of the satellite "i"
 
 It is like example 1 but the satellites interact with three stars.
 
-*[YouTube video]()*
+*[YouTube video](https://www.youtube.com/watch?v=eWLeQlX0vnI&feature=youtu.be)*
 
 
 <p align="center">
