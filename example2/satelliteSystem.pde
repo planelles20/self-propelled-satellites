@@ -129,6 +129,12 @@ class SatelliteSystem {
         //voose between top 5
         int sat1 = int(random(0, 5));
         int sat2 = int(random(0, 5));
+        
+        // not reapeat sat
+        while(sat1 == sat2){
+          sat2 = int(random(0, 5));
+        }
+        
         selfCarSystem.get(i).geneticAlgotithm(selfCarSystem.get(sat1), selfCarSystem.get(sat2));
       }
     }

@@ -112,13 +112,15 @@ class Satellite {
   }
   
   void geneticAlgotithm(Satellite sat1, Satellite sat2){
-    
-    if(0.3 < random(0, 1.0))
-      brain.mutation();
     if(0.3 < random(0, 1.0))
       brain.crossOver(sat1); // choose bebetween 4 first numbers (5 not include)
-    if(0.3 < random(0, 1.0))
+    else if(0.3 < random(0, 1.0))
+      brain.copyBrain(sat1); // choose bebetween 4 first numbers (5 not include)
+    else 
       brain.reproduction(sat1, sat2); // choose bebetween 4 first numbers
+      
+    //if(0.3 < random(0, 1.0))
+    brain.mutation();
    
   }
   

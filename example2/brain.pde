@@ -237,6 +237,32 @@ class Brain {
     }
   }
   
+  void copyBrain(Satellite sat){
+     //weight1
+    for(int i = 0; i<numHiddenNeurons1; i++){
+      for(int j = 0; j<numInputs; j++) {
+          weight1[j][i] = sat.getWeight(1, j, i);
+      }
+        bias1[i] = sat.getBias(1, i);
+    }
+    
+    //weight2
+    for(int i = 0; i<numHiddenNeurons2; i++){
+      for(int j = 0; j<numHiddenNeurons1; j++) {
+          weight2[j][i] = sat.getWeight(2, j, i);
+      }
+        bias2[i] = sat.getBias(2, i);
+    }
+    
+    
+    //weight3
+    for(int i = 0; i<numHiddenNeurons2; i++){
+      for(int j = 0; j<numOutputs; j++) {
+          weight3[i][j] = sat.getWeight(3, i, j);
+      }
+    }
+  }
+  
   float activationFunction(float x){
     //sigmoid
     return 1.0/(1.0+exp(-x));
