@@ -70,7 +70,7 @@ void drawGraph(){
   //println(y[iterator-1]);
    if(generation < satelliteSys.generation()){
     generation = satelliteSys.generation();
-    println(iterator);
+    
     xGen = append(xGen, generation);
     yGen = append(yGen, y[iterator-1]);
     
